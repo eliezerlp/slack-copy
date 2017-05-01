@@ -25,7 +25,7 @@ function formatCopiedConversation(raw_text, fancy_formatting) {
                 output_lines.push('');
             }
             if (fancy_formatting) {
-                output_lines.push('**' + author + '** ' + time);
+                output_lines.push('*' + author + '* ' + time);
             } else {
                 output_lines.push(author + ' ' + time);
             }
